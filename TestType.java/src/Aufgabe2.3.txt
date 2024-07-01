@@ -1,0 +1,22 @@
+2.3 Typen von Java-Ausdr?cken
+ 1. Bestimmen Sie den Typ und das Ergebnis der folgenden Java-Ausdr?cke und begr?nden Sie Ihre Antwort. Sollte der Ausdruck nicht typkorrekt sein, begr?nden Sie, worin der Fehler besteht. Dabei seien die Variablen x, y und z wie folgt deklariert: int x = 1; int y = 2; int z= 3; 
+(a) false && true 
+Typ: boolean
+Ergebnis: false
+(b) 10/3
+Typ: int
+Ergebnis: 3
+(c) 10 / 3.
+Typ: double
+Ergebnis: 3.333333333
+d) x==y?x>y: y<z 
+Typ: boolean
+Ergebnis: true
+(e) (byte) (127 + 1) 
+Typ: byte
+Ergebnis: -128
+(f) x+y + "z" 
+Typ: String
+Ergebnis: "3z"
+(g) 1 || 0
+Typ: Fehlerhaft (nicht typkorrekt) In Java muss der logische OR-Operator (||) auf boolean-Werte angewendet werden. 1 und 0 sind jedoch Ganzzahlen und keine booleschen Werte. Dieser Ausdruck ist daher nicht typkorrekt und f?hrt zu einem Kompilierungsfehler.
