@@ -7,7 +7,7 @@ public class Program2_3_1a {
 		int y=2;
 		int z=3;
 		System.out.println("x = " + x );
-		x == y ? x > y : y < z;
+		
 		
 
 	}

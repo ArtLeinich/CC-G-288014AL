@@ -1,9 +1,8 @@
 package testtype;
 
-public class TestType {
+public class Typkonversion {
 
 	public static void main(String[] args) {
-		
 		byte b1 = 10, b2 = 20;
 		short p = 200;
 		int n = 500;
@@ -34,7 +33,7 @@ public class TestType {
 		
 		float hh = b1*q*2.f/x;
 		System.out.println("hh = " + hh);
-	
-		
-	}	
+
+	}
+
 }

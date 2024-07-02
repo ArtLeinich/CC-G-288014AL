@@ -6,7 +6,8 @@ public class Program2_3_2a {
 		int x=120;
 		int y=2;
 		int z=3;
-		2147483647 + '1';
+		System.out.println(2147483647 + '1');
+		
 
 	}
 
