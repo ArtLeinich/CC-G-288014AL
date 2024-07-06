@@ -19,6 +19,7 @@ public class Glueckspielautomat {
                 break;
             }
 
+       //    random.nextInt(100);
             int generatedNumber = random.nextInt(100) + 1;
             System.out.println("Die generierte Zahl lautet: " + generatedNumber);
 
