@@ -55,7 +55,7 @@ public class Differentialgleichung extends JPanel {
             int y1 = 550 - (int) (fractions.get(i) * 500);
             int x2 = 50 + (int) (times.get(i + 1) * 7);
             int y2 = 550 - (int) (fractions.get(i + 1) * 500);
-            g2.drawLine(x1, y1, x2, y2);
+         //   g2.drawLine(x1, y1, x2, y2);
             g2.fillOval(x1 - 2, y1 - 2, 4, 4);
         }
     }
