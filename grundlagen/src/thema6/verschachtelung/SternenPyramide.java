@@ -3,7 +3,7 @@ package thema6.verschachtelung;
 public class SternenPyramide {
 
     public static void main(String[] args) {
-        int height = 5; // Höhe der Pyramide
+        int height = 15; // Höhe der Pyramide
 
         for (int i = 1; i <= height; i++) {
             // Leerzeichen vor den Sternen

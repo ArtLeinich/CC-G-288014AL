@@ -3,7 +3,7 @@ package thema6.verschachtelung;
 public class DreiecksZahlen {
 
 	public static void main(String[] args) {
-		int max = 5;
+		int max = 10;
 		int[] dreiecksZahlen = new int[max];
 		String[] dreiecksStrings = new String[max];
 
