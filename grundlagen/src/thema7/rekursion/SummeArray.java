@@ -9,9 +9,9 @@ public class SummeArray {
 	}
 
 	private static int summeArray(int[] zahlen, int i) {
-		 if (i == zahlen.length) {
-	            return 0;
-	        }
-	            return zahlen[i] + summeArray(zahlen, i + 1);
-	    }
+		if (i == zahlen.length) {
+			return 0;
+		}
+		return zahlen[i] + summeArray(zahlen, i + 1);
+	}
 }
