@@ -11,18 +11,17 @@ class BaumKnoten {
 }
 
 public class HoeheDesBaums {
-    // Methode zur Berechnung der Höhe eines Binärbaums
+   
     public static int hoeheBaum(BaumKnoten knoten) {
      
         if (knoten == null) {
             return 0;
         }
-        // Rekursive Berechnung der Höhe des linken und rechten Teilbaums
+    
         int linkeHoehe = hoeheBaum(knoten.links);
         int rechteHoehe = hoeheBaum(knoten.rechts);
 
-        // Die Höhe des aktuellen Knotens ist 1 plus die größere der Höhen seiner Teilbäume
-        return Math.max(linkeHoehe, rechteHoehe) + 1;
+         return Math.max(linkeHoehe, rechteHoehe) + 1;
     }
 
     public static void main(String[] args) {
