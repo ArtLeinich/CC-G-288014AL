@@ -25,7 +25,6 @@ public class Auto {
 		this.id = id;
 	}
 	
-	
 	public String getMarke() { // getter
 		return marke;
 	}
