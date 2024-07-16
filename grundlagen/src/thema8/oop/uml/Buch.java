@@ -42,8 +42,8 @@ public class Buch {
 
 	@Override
 	public String toString() {
-		return "Buch [Title=" + title + ", Autor=" + autor + ", ISBN=" + isbn + "]";
-	}
+		return "Buch [title=" + title + ", autor=" + autor + ", isbn=" + isbn + "]\n";
+	}	
 
 	
 }

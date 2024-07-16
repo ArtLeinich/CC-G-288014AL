@@ -19,11 +19,11 @@ public class MeinBibliothekProgramm {
         List<Buch> ausgelieheneBuecher1 = new ArrayList<Buch>();
         ausgelieheneBuecher1.add(meineBuecher.get(0));
         ausgelieheneBuecher1.add(meineBuecher.get(1));
-        meineMitglieder.add(new Mitglied("Mitglied 1", "M001", ausgelieheneBuecher1));
+        meineMitglieder.add(new Mitglied("Paul", "M001", ausgelieheneBuecher1));
 
         List<Buch> ausgelieheneBuecher2 = new ArrayList<Buch>();
         ausgelieheneBuecher2.add(meineBuecher.get(2));
-        meineMitglieder.add(new Mitglied("Mitglied 2", "M002", ausgelieheneBuecher2));
+        meineMitglieder.add(new Mitglied("Martin", "M002", ausgelieheneBuecher2));
         
     	meineBibliothek.setBuecher(meineBuecher);
 		meineBibliothek.setMitglieder(meineMitglieder);

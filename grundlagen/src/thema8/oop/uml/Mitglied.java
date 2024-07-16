@@ -38,10 +38,10 @@ public class Mitglied {
         this.ausgelieheneBuecher = ausgelieheneBuecher;
     }
 
-	@Override
+    @Override
 	public String toString() {
-		return "Mitglied [Name=" + name + ", Mitgliedsnummer=" + mitgliedsnummer + ", AusgelieheneBuecher="
-				+ ausgelieheneBuecher + "]";
+		return "Mitglied [name=" + name + ", mitgliedsnummer=" + mitgliedsnummer + ", ausgelieheneBuecher="
+				+ ausgelieheneBuecher + "]\n";
 	}
       
     

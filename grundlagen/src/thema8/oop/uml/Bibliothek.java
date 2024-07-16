@@ -38,17 +38,26 @@ public class Bibliothek {
 		this.mitglieder = mitglieder;
 	}
 
-	
+
 	@Override
-    public String toString() {
-        String textToReturn = "Name = " + this.name + "\nBuecher:\n";
-        for (Buch buch : this.buecher) {
-            textToReturn += buch + "\n";
-        }
-//        textToReturn += "Mitglieder:\n";
-//        for (Mitglied mitglied : this.mitglieder) {
-//            textToReturn += mitglied + "\n";
+	public String toString() {
+		return "Bibliothek [name=" + name + ", buecher=" + buecher + 
+				", mitglieder=" + mitglieder + "]\n";
+	}
+
+	
+//	@Override
+//    public String toString() {
+//        String textToReturn = "Name = " + this.name + "\nBuecher:\n";
+//        for (Buch buch : this.buecher) {
+//            textToReturn += buch + "\n";
 //        }
-        return textToReturn;
-    }
+////        textToReturn += "Mitglieder:\n";
+////        for (Mitglied mitglied : this.mitglieder) {
+////            textToReturn += mitglied + "\n";
+////        }
+//        return textToReturn;
+   // }
+	
+	
 }
