@@ -12,8 +12,7 @@ public class Bibliothek {
 	
 	public Bibliothek() {
 	}
-	
-	
+		
 	public String getName() {
 		return name;
 	}
